@@ -35,3 +35,7 @@ up a script with some default parameters. Mine looks like this:
 ```bash
 Cleaner -d ../ --filter-directory ../Filtered --debug
 ```
+
+# Requirements
+
+- [.NET Core Runtime](https://dotnet.microsoft.com/download)
