@@ -19,7 +19,7 @@ namespace Cleaner
 
         [Option('f', "filter", Required = false, Default = new[]
         {
-            @"\[General\]\s\d+\.\d+\s.+Failed.+signature for file\s",
+            @"\[FileIO \]\s\d+\.\d+\s.+Failed.+signature for file\s",
             @"\[=ERROR=]\s\d+\.\d+\s.+Could not find file\s'.+\.sig.*'",
             @"\[General\]\s\d+\.\d+ ={38}"
         })]
